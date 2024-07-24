@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  .navbar-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Profile Menu Styles */
+  .profile-menu {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .profile-menu button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-menu button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Video Player Styles */
+  .video-player {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  video {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* User Profile Styles */
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .profile-info {
+    width: 70%;
+  }
+  
+  .recommendations {
+    width: 25%;
+  }
+  
+  .recommendations ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recommendations li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
